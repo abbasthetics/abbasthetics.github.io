@@ -1,8 +1,7 @@
 body {
     font-family: 'Oswald', sans-serif;
     width: 1057px;
-    margin: auto;
-    max-height: 80vh;
+    height: 100vh;
 }
 
 .da {
@@ -10,6 +9,9 @@ body {
     justify-content: center;
     margin: auto 160px;
     gap: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .text {
