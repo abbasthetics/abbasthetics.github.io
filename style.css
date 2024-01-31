@@ -37,7 +37,7 @@ body {
 }
 
 .image-wrapper img {
-    width: 500px;
+    width: 400px;
     @media (max-width: 480px) {
         width: 300px;
     }
@@ -49,8 +49,8 @@ body {
     top: 34px;
     background: transparent;
     border: 4px solid rgb(84, 0, 9);;
-    width: 500px;
-    height: 666px;
+    width: 400px;
+    height: 533px;
     z-index: -1;
     @media (max-width: 480px) {
         width: 300px;
