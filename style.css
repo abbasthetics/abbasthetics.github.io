@@ -5,7 +5,6 @@ body {
 }
 
 .header {
-    width: 1140px;
     height: 100px;
     margin: 0 auto 100px auto;
     padding: 20px 60px;
@@ -38,6 +37,9 @@ body {
 
 .image-wrapper img {
     width: 500px;
+    @media (max-width: 480px) {
+        width: 300px;
+    }
 }
 
 .image-wrapper::before {
@@ -50,13 +52,16 @@ body {
     width: 500px;
     height: 666px;
     z-index: -1;
+    @media (max-width: 480px) {
+        width: 300px;
+        height: 400px;
+    }
 }
 
 .hero {
     display: flex;
     align-items: center;
     gap: 100px;
-    width: 1140px;
     margin: 0 auto 60px auto;
     padding: 0 60px;
 }
@@ -98,3 +103,42 @@ body {
 
 
 
+
+
+
+
+
+/*body {*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    width: 1057px;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.da {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin: auto 160px;*/
+/*    gap: 40px;*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+
+/*.text {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*h1 {*/
+/*    font-size: 40px;*/
+/*}*/
+
+/*span {*/
+/*    font-size: 24px;*/
+/*    margin-top: auto;*/
+/*}*/
+
+/*img {*/
+/*    max-width: calc(100vw - 360px);*/
+/*    max-height: calc(100vh - 100px);*/
+/*}*/
