@@ -2,12 +2,13 @@ body {
     font-family: 'Oswald', sans-serif;
     width: 1057px;
     margin: auto;
+    max-height: 80vh;
 }
 
 .da {
     display: flex;
     justify-content: center;
-    margin: 0 160px;
+    margin: auto 160px;
     gap: 40px;
 }
 
@@ -27,5 +28,5 @@ span {
 
 img {
     max-width: calc(100vw - 360px);
-    max-height: 100vh;
+    max-height: calc(100vh - 100px);
 }
